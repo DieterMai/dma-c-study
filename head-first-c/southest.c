@@ -12,7 +12,7 @@ int main(){
 	
 	goSouthEast(&latitude, &longitude);
 	
-	printf("Avest! now at [%i, %i]\n", latitude, longitude);
+	printf("Avest!! now at [%i, %i]\n", latitude, longitude);
  
 	return 0;
 }
