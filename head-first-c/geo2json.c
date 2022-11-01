@@ -20,6 +20,15 @@ int main()
 		{
 			started = 1;
 		}
+		if(latitude < -90 || latitude > 90){
+			fprintf(stderr, "invalid value of latitude: %f\n", latitude);
+			return 2;
+		}
+		if(longitude < -180 || longitude > 180){
+			fprintf(stderr, "invalid value for longitude: %f\n", longitude);
+			return 2;
+		}
+		
 		printf("{latitude: %f, longitude: %f, info: '%s'}", latitude, longitude, info);
 	}
 	
