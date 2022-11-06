@@ -17,13 +17,13 @@ int main(){
 		}else{
 			fprintf(file3, "%s\n", line);
 		}
-		
-		fclose(file1);
-		fclose(file2);
-		fclose(file3);
-
-		return 0;
 	}
+		
+	fclose(file1);
+	fclose(file2);
+	fclose(file3);
+
+	return 0;
 }
 
 
